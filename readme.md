@@ -11,7 +11,7 @@ cd kinsta-internal-api/
 
 Next copy `credentials-sample.json` to `credentials.json` and replace with your Kinsta Company ID, Kinsta password and Kinsta token. 
 
-To retrieve your current Kinsta token, sign into [https://my.kinsta.com](https://my.kinsta.com) and open Chrome DevTools. Type into the console `localStorage.token`then copy the 180 length string.
+To retrieve your current Kinsta token, sign into [https://my.kinsta.com](https://my.kinsta.com) and open Chrome DevTools. Type into the console `localStorage.getItem("com.kinsta.shared.loginToken")` then copy the 180 length string.
 
 
 Start the script by running:
